@@ -1,4 +1,7 @@
 <style>
+.pagetype-configure div #jcpd {
+  Transform: scale(0.73);
+}
 #jcpd .title {
     width: 495px;
     height: 111px;
