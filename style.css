@@ -1,0 +1,29 @@
+#jcpd .title { 
+width: 495px; 
+height: 111px; 
+} 
+/*need to use the pagetype-configure class selector--to prevent the selector page from being styled as well—since they display on the same page, and use the same ids*/ 
+@media all and (min-width: 1243px) { 
+.pagetype-configure div #fluidConfigure{ 
+-webkit-transform: scale(0.75);
+-ms-transform: scale(0.75);
+transform: scale(0.75);
+-moz-transform: scale(0.75); 
+position:relative;
+margin-top: -189px;
+} 
+.pagetype-configure div #fluidConfigure .configure-display-area img { 
+-webkit-transform: scale(0.75);
+-ms-transform: scale(0.75);
+transform: scale(0.75);
+-moz-transform: scale(0.76); 
+margin-top:-130px;
+} 
+.configure-buttons-area{
+	margin-top:-255px;
+}
+#fluidConfigure .configure-display:after{
+bottom: 307px;
+left: 154px;
+} 
+}
