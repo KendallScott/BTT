@@ -1,17 +1,7 @@
 <style>
-.pagetype-configure div #jcpd {
-  Transform: scale(0.80);
-}
-#jcpd .title {
-    width: 495px;
-    height: 111px;
-}
-@media all and (min-width:1243px){ 
-/*need to use the pagetype-configure class selector--to prevent the selector page from being styled as well—since they display on the same page, and use the same ids*/ 
-.pagetype-configure div #fluidConfigure { 
-Transform: scale(0.73);
-Margin-top: -200px;
-}
+.coupon-wrapper .section-bar {
+      background-color: #333;
+      text-align: center;
 }
 </style>
 
